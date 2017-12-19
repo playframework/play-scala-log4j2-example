@@ -32,11 +32,6 @@ dependencies {
     playTest "org.scalatestplus.play:scalatestplus-play_$scalaVersion:3.1.2"
 }
 
-// configurations {
-//     // Remove logback
-//     runtime.exclude group: "com.typesafe.play", module: "play-logback_$scalaVersion"
-// }
-
 repositories {
     jcenter()
     maven {
