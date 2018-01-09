@@ -19,5 +19,5 @@ lazy val root = (project in file("."))
 scalaVersion in ThisBuild := "2.12.4"
 
 libraryDependencies ++= Seq(
-  "org.scalatestplus.play" %% "scalatestplus-play" % "3.1.2" % Test
+libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "3.1.2" % Test
 )
